@@ -819,6 +819,13 @@
                 <button id="game7-button" onclick="openGame('footballX')">Open</button>
             </div>
         </div>
+        <div class="game">
+            <img src="6.png" alt="Football X Preview">
+            <div class="game-info">
+                <h3 id="game-title">Aviator</h3>
+                <button id="game8-button" onclick="openGame('aviator')">Open</button>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -1142,11 +1149,10 @@ const translations = {
             document.getElementById('game6-title').innerText = translations[lang].game6Title;
             document.getElementById('game6-button').innerText = translations[lang].game6Button;
 
-            document.getElementById('game7-title').innerText = translations[lang].game7Title;
+
             document.getElementById('game7-button').innerText = translations[lang].game7Button;
 
-            document.getElementById('game10-title').innerText = translations[lang].game10Title;
-            document.getElementById('game10-button').innerText = translations[lang].game10Button;
+            document.getElementById('game8-button').innerText = translations[lang].game7Button;
 
             // Обновляем текст для кнопок Telegram
             document.getElementById('telegram-button').innerText = translations[lang].telegramButton;
